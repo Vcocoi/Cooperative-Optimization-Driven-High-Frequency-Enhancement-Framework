@@ -8,7 +8,7 @@ from torch.autograd import Variable
 from torch.utils.data import DataLoader
 from data import Dataset_Pro
 from loss_util import SSIM
-from contrastive_dw_5mi import net
+from model.contrastive_dw_5mi import net
 
 import scipy.io as sio
 import numpy as np
