@@ -22,7 +22,7 @@ import wandb
 import datetime
 import utils.util as u
 from utils.global_config import parse_args, init_global_config
-from models1.pipeline import Trainer
+from pipeline import Trainer
 
 # ================== Pre-test =================== #
 def load_set(file_path):
